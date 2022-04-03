@@ -1,0 +1,6 @@
+#!/bin/sh
+
+pushd $1
+git status
+git submodule update
+popd
